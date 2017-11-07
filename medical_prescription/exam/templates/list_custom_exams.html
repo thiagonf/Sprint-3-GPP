@@ -5,7 +5,7 @@
         <thead>
           <th>ID</th>  
           <th>{% trans "Nome" %}</th>
-          <th>{% trans "Descrição" %}</th>
+          <th>{% trans "Descri o" %}</th>
         </thead>
       <tbody>
 
@@ -27,13 +27,13 @@
         <div class="pagination">
             <span class="page-links">
                 {% if page_obj.has_previous %}
-                    <a href="?page={{ page_obj.previous_page_number }}">{% trans "Página Anterior" %}</a>
+                    <a href="?page={{ page_obj.previous_page_number }}">{% trans "P gina Anterior" %}</a>
                 {% endif %}
                 <span class="page-current">
                     Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
                 </span>
                 {% if page_obj.has_next %}
-                    <a href="?page={{ page_obj.next_page_number }}">{% trans "Próxima Página" %}</a>
+                    <a href="?page={{ page_obj.next_page_number }}">{% trans "Pr xima P gina" %}</a>
                 {% endif %}
             </span>
         </div>

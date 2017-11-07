@@ -5,12 +5,12 @@
 import moment from '../moment';
 
 export default moment.defineLocale('x-pseudo', {
-    months : 'J~áñúá~rý_F~ébrú~árý_~Márc~h_Áp~ríl_~Máý_~Júñé~_Júl~ý_Áú~gúst~_Sép~témb~ér_Ó~ctób~ér_Ñ~óvém~bér_~Décé~mbér'.split('_'),
-    monthsShort : 'J~áñ_~Féb_~Már_~Ápr_~Máý_~Júñ_~Júl_~Áúg_~Sép_~Óct_~Ñóv_~Déc'.split('_'),
+    months : 'J~ ñ ~rý_F~ br ~ rý_~M rc~h_ p~r l_~M ý_~J ñ ~_J l~ý_ ~g st~_S p~t mb~ r_ ~ct b~ r_Ñ~ v m~b r_~D c ~mb r'.split('_'),
+    monthsShort : 'J~ ñ_~F b_~M r_~ pr_~M ý_~J ñ_~J l_~ g_~S p_~ ct_~Ñ v_~D c'.split('_'),
     monthsParseExact : true,
-    weekdays : 'S~úñdá~ý_Mó~ñdáý~_Túé~sdáý~_Wéd~ñésd~áý_T~húrs~dáý_~Fríd~áý_S~átúr~dáý'.split('_'),
-    weekdaysShort : 'S~úñ_~Móñ_~Túé_~Wéd_~Thú_~Frí_~Sát'.split('_'),
-    weekdaysMin : 'S~ú_Mó~_Tú_~Wé_T~h_Fr~_Sá'.split('_'),
+    weekdays : 'S~ ñd ~ý_M ~ñd ý~_T ~sd ý~_W d~ñ sd~ ý_T~h rs~d ý_~Fr d~ ý_S~ t r~d ý'.split('_'),
+    weekdaysShort : 'S~ ñ_~M ñ_~T _~W d_~Th _~Fr _~S t'.split('_'),
+    weekdaysMin : 'S~ _M ~_T _~W _T~h_Fr~_S '.split('_'),
     weekdaysParseExact : true,
     longDateFormat : {
         LT : 'HH:mm',
@@ -20,27 +20,27 @@ export default moment.defineLocale('x-pseudo', {
         LLLL : 'dddd, D MMMM YYYY HH:mm'
     },
     calendar : {
-        sameDay : '[T~ódá~ý át] LT',
-        nextDay : '[T~ómó~rró~w át] LT',
-        nextWeek : 'dddd [át] LT',
-        lastDay : '[Ý~ést~érdá~ý át] LT',
-        lastWeek : '[L~ást] dddd [át] LT',
+        sameDay : '[T~ d ~ý  t] LT',
+        nextDay : '[T~ m ~rr ~w  t] LT',
+        nextWeek : 'dddd [ t] LT',
+        lastDay : '[Ý~ st~ rd ~ý  t] LT',
+        lastWeek : '[L~ st] dddd [ t] LT',
         sameElse : 'L'
     },
     relativeTime : {
-        future : 'í~ñ %s',
-        past : '%s á~gó',
-        s : 'á ~féw ~sécó~ñds',
-        m : 'á ~míñ~úté',
-        mm : '%d m~íñú~tés',
-        h : 'á~ñ hó~úr',
-        hh : '%d h~óúrs',
-        d : 'á ~dáý',
-        dd : '%d d~áýs',
-        M : 'á ~móñ~th',
-        MM : '%d m~óñt~hs',
-        y : 'á ~ýéár',
-        yy : '%d ý~éárs'
+        future : ' ~ñ %s',
+        past : '%s  ~g ',
+        s : '  ~f w ~s c ~ñds',
+        m : '  ~m ñ~ t ',
+        mm : '%d m~ ñ ~t s',
+        h : ' ~ñ h ~ r',
+        hh : '%d h~ rs',
+        d : '  ~d ý',
+        dd : '%d d~ ýs',
+        M : '  ~m ñ~th',
+        MM : '%d m~ ñt~hs',
+        y : '  ~ý r',
+        yy : '%d ý~ rs'
     },
     dayOfMonthOrdinalParse: /\d{1,2}(th|st|nd|rd)/,
     ordinal : function (number) {

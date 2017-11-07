@@ -56,7 +56,7 @@ class RegisterPatientView(FormView):
             ConfirmAccountView.activate_account_request(email)
 
             messages.success(
-                request, 'Registro Realizado!Um email foi enviado com seu link para ativação!', extra_tags='alert')
+                request, 'Registro Realizado!Um email foi enviado com seu link para ativa o!', extra_tags='alert')
 
             return redirect('/')
 

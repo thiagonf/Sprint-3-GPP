@@ -1,7 +1,7 @@
 define(function () {
   // Polish
-  var charsWords = ['znak', 'znaki', 'znaków'];
-  var itemsWords = ['element', 'elementy', 'elementów'];
+  var charsWords = ['znak', 'znaki', 'znak w'];
+  var itemsWords = ['element', 'elementy', 'element w'];
 
   var pluralWord = function pluralWord(numberOfChars, words) {
     if (numberOfChars === 1) {
@@ -15,7 +15,7 @@ define(function () {
   
   return {
     errorLoading: function () {
-      return 'Nie można załadować wyników.';
+      return 'Nie można załadować wynik w.';
     },
     inputTooLong: function (args) {
       var overChars = args.input.length - args.maximum;
@@ -36,7 +36,7 @@ define(function () {
         pluralWord(args.maximum, itemsWords);
     },
     noResults: function () {
-      return 'Brak wyników';
+      return 'Brak wynik w';
     },
     searching: function () {
       return 'Trwa wyszukiwanie…';

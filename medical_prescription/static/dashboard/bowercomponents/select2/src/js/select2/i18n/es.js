@@ -2,7 +2,7 @@ define(function () {
   // Spanish
   return {
     errorLoading: function () {
-      return 'La carga falló';
+      return 'La carga fall ';
     },
     inputTooLong: function (args) {
       var remainingChars = args.input.length - args.maximum;
@@ -10,7 +10,7 @@ define(function () {
       var message = 'Por favor, elimine ' + remainingChars + ' car';
 
       if (remainingChars == 1) {
-        message += 'ácter';
+        message += ' cter';
       } else {
         message += 'acteres';
       }
@@ -23,7 +23,7 @@ define(function () {
       var message = 'Por favor, introduzca ' + remainingChars + ' car';
 
       if (remainingChars == 1) {
-        message += 'ácter';
+        message += ' cter';
       } else {
         message += 'acteres';
       }
@@ -31,10 +31,10 @@ define(function () {
       return message;
     },
     loadingMore: function () {
-      return 'Cargando más resultados…';
+      return 'Cargando m s resultados…';
     },
     maximumSelected: function (args) {
-      var message = 'Sólo puede seleccionar ' + args.maximum + ' elemento';
+      var message = 'S lo puede seleccionar ' + args.maximum + ' elemento';
 
       if (args.maximum != 1) {
         message += 's';

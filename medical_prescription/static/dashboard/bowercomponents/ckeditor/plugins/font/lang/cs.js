@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("font","cs",{fontSize:{label:"Velikost",voiceLabel:"Velikost písma",panelTitle:"Velikost"},label:"Písmo",panelTitle:"Písmo",voiceLabel:"Písmo"});
+﻿CKEDITOR.plugins.setLang("font","cs",{fontSize:{label:"Velikost",voiceLabel:"Velikost p sma",panelTitle:"Velikost"},label:"P smo",panelTitle:"P smo",voiceLabel:"P smo"});

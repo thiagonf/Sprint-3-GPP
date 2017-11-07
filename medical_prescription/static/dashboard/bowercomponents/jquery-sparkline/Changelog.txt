@@ -258,7 +258,7 @@ Thanks to Hubert Mandeville for a patch fixing both issues
 1.2 - 19/November/2008
 
 + Fixed positioning of min/max line markers for fixed range graphs
-(thanks to Stéphane Busso)
+(thanks to St phane Busso)
 
 + Fixed rendering of bar charts with negative values
 

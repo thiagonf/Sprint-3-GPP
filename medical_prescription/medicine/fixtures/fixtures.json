@@ -77,7 +77,7 @@
   {"model": "medicine.activeprinciple",
     "pk": 13,
     "fields": {
-      "name": "DIPIRONA  MAGNÉSICA"
+      "name": "DIPIRONA  MAGN SICA"
       }
   },
   {"model": "medicine.activeprinciple",

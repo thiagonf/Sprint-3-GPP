@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("font","vi",{fontSize:{label:"Cỡ chữ",voiceLabel:"Kích cỡ phông",panelTitle:"Cỡ chữ"},label:"Phông",panelTitle:"Phông",voiceLabel:"Phông"});
+﻿CKEDITOR.plugins.setLang("font","vi",{fontSize:{label:"Cỡ chữ",voiceLabel:"K ch cỡ ph ng",panelTitle:"Cỡ chữ"},label:"Ph ng",panelTitle:"Ph ng",voiceLabel:"Ph ng"});

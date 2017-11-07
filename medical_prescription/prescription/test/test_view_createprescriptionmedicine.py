@@ -26,7 +26,7 @@ class TestCreatePrescriptionMedicine(TestCase):
         self.patient.id_document = "1000331"
         self.patient.CEP = "72850735"
         self.patient.UF = "DF"
-        self.patient.city = "Brasília"
+        self.patient.city = "Bras lia"
         self.patient.neighborhood = "Asa sul"
         self.patient.complement = "Bloco 2 QD 701"
         self.patient.save()

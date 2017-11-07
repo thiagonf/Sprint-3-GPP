@@ -1,7 +1,7 @@
 //! moment.js locale configuration
 //! locale : Ukrainian [uk]
 //! author : zemlanin : https://github.com/zemlanin
-//! Author : Menelion Elensúle : https://github.com/Oire
+//! Author : Menelion Elens le : https://github.com/Oire
 
 import moment from '../moment';
 

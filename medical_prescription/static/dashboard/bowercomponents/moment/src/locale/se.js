@@ -6,10 +6,10 @@
 import moment from '../moment';
 
 export default moment.defineLocale('se', {
-    months : 'ođđajagemánnu_guovvamánnu_njukčamánnu_cuoŋománnu_miessemánnu_geassemánnu_suoidnemánnu_borgemánnu_čakčamánnu_golggotmánnu_skábmamánnu_juovlamánnu'.split('_'),
-    monthsShort : 'ođđj_guov_njuk_cuo_mies_geas_suoi_borg_čakč_golg_skáb_juov'.split('_'),
-    weekdays : 'sotnabeaivi_vuossárga_maŋŋebárga_gaskavahkku_duorastat_bearjadat_lávvardat'.split('_'),
-    weekdaysShort : 'sotn_vuos_maŋ_gask_duor_bear_láv'.split('_'),
+    months : 'ođđajagem nnu_guovvam nnu_njukčam nnu_cuoŋom nnu_miessem nnu_geassem nnu_suoidnem nnu_borgem nnu_čakčam nnu_golggotm nnu_sk bmam nnu_juovlam nnu'.split('_'),
+    monthsShort : 'ođđj_guov_njuk_cuo_mies_geas_suoi_borg_čakč_golg_sk b_juov'.split('_'),
+    weekdays : 'sotnabeaivi_vuoss rga_maŋŋeb rga_gaskavahkku_duorastat_bearjadat_l vvardat'.split('_'),
+    weekdaysShort : 'sotn_vuos_maŋ_gask_duor_bear_l v'.split('_'),
     weekdaysMin : 's_v_m_g_d_b_L'.split('_'),
     longDateFormat : {
         LT : 'HH:mm',
@@ -37,8 +37,8 @@ export default moment.defineLocale('se', {
         hh : '%d diimmut',
         d : 'okta beaivi',
         dd : '%d beaivvit',
-        M : 'okta mánnu',
-        MM : '%d mánut',
+        M : 'okta m nnu',
+        MM : '%d m nut',
         y : 'okta jahki',
         yy : '%d jagit'
     },

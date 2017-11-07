@@ -19,12 +19,12 @@ define(function () {
       return 'Daha fazla…';
     },
     maximumSelected: function (args) {
-      var message = 'Sadece ' + args.maximum + ' seçim yapabilirsiniz';
+      var message = 'Sadece ' + args.maximum + ' se im yapabilirsiniz';
 
       return message;
     },
     noResults: function () {
-      return 'Sonuç bulunamadı';
+      return 'Sonu  bulunamadı';
     },
     searching: function () {
       return 'Aranıyor…';

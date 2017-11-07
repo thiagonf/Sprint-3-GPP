@@ -39,7 +39,7 @@ class PatientForm(UserForm):
                                                        'placeholder': '* DF'}))
 
     city = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control s-form-v3__input',
-                                                         'placeholder': '* Brasília'}))
+                                                         'placeholder': '* Bras lia'}))
 
     neighborhood = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control s-form-v3__input',
                                                                  'placeholder': '* Asa Norte'}))

@@ -42,14 +42,14 @@ var fy = moment.defineLocale('fy', {
         nextDay: '[moarn om] LT',
         nextWeek: 'dddd [om] LT',
         lastDay: '[juster om] LT',
-        lastWeek: '[ôfrûne] dddd [om] LT',
+        lastWeek: '[ fr ne] dddd [om] LT',
         sameElse: 'L'
     },
     relativeTime : {
         future : 'oer %s',
         past : '%s lyn',
         s : 'in pear sekonden',
-        m : 'ien minút',
+        m : 'ien min t',
         mm : '%d minuten',
         h : 'ien oere',
         hh : '%d oeren',

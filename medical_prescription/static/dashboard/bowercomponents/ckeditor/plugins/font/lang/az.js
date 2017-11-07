@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("font","az",{fontSize:{label:"Şrift ölçüsü",voiceLabel:"Şrift ölçüsü",panelTitle:"Şrift ölçüsü"},label:"Şrift",panelTitle:"Şrift",voiceLabel:"Şrift"});
+﻿CKEDITOR.plugins.setLang("font","az",{fontSize:{label:"Şrift öl üsü",voiceLabel:"Şrift öl üsü",panelTitle:"Şrift öl üsü"},label:"Şrift",panelTitle:"Şrift",voiceLabel:"Şrift"});

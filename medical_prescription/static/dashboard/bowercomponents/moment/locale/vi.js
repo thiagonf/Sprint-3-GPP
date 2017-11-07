@@ -11,10 +11,10 @@
 
 
 var vi = moment.defineLocale('vi', {
-    months : 'tháng 1_tháng 2_tháng 3_tháng 4_tháng 5_tháng 6_tháng 7_tháng 8_tháng 9_tháng 10_tháng 11_tháng 12'.split('_'),
+    months : 'th ng 1_th ng 2_th ng 3_th ng 4_th ng 5_th ng 6_th ng 7_th ng 8_th ng 9_th ng 10_th ng 11_th ng 12'.split('_'),
     monthsShort : 'Th01_Th02_Th03_Th04_Th05_Th06_Th07_Th08_Th09_Th10_Th11_Th12'.split('_'),
     monthsParseExact : true,
-    weekdays : 'chủ nhật_thứ hai_thứ ba_thứ tư_thứ năm_thứ sáu_thứ bảy'.split('_'),
+    weekdays : 'chủ nhật_thứ hai_thứ ba_thứ tư_thứ năm_thứ s u_thứ bảy'.split('_'),
     weekdaysShort : 'CN_T2_T3_T4_T5_T6_T7'.split('_'),
     weekdaysMin : 'CN_T2_T3_T4_T5_T6_T7'.split('_'),
     weekdaysParseExact : true,
@@ -42,25 +42,25 @@ var vi = moment.defineLocale('vi', {
         llll : 'ddd, D MMM YYYY HH:mm'
     },
     calendar : {
-        sameDay: '[Hôm nay lúc] LT',
-        nextDay: '[Ngày mai lúc] LT',
-        nextWeek: 'dddd [tuần tới lúc] LT',
-        lastDay: '[Hôm qua lúc] LT',
-        lastWeek: 'dddd [tuần rồi lúc] LT',
+        sameDay: '[H m nay l c] LT',
+        nextDay: '[Ngày mai l c] LT',
+        nextWeek: 'dddd [tuần tới l c] LT',
+        lastDay: '[H m qua l c] LT',
+        lastWeek: 'dddd [tuần rồi l c] LT',
         sameElse: 'L'
     },
     relativeTime : {
         future : '%s tới',
         past : '%s trước',
-        s : 'vài giây',
-        m : 'một phút',
-        mm : '%d phút',
+        s : 'vài gi y',
+        m : 'một ph t',
+        mm : '%d ph t',
         h : 'một giờ',
         hh : '%d giờ',
         d : 'một ngày',
         dd : '%d ngày',
-        M : 'một tháng',
-        MM : '%d tháng',
+        M : 'một th ng',
+        MM : '%d th ng',
         y : 'một năm',
         yy : '%d năm'
     },

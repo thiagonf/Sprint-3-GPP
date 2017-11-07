@@ -13,13 +13,13 @@
 
 datepicker.regional['fr-CA'] = {
 	closeText: 'Fermer',
-	prevText: 'Précédent',
+	prevText: 'Pr c dent',
 	nextText: 'Suivant',
 	currentText: 'Aujourd\'hui',
-	monthNames: ['janvier', 'février', 'mars', 'avril', 'mai', 'juin',
-		'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'],
-	monthNamesShort: ['janv.', 'févr.', 'mars', 'avril', 'mai', 'juin',
-		'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'],
+	monthNames: ['janvier', 'f vrier', 'mars', 'avril', 'mai', 'juin',
+		'juillet', 'ao t', 'septembre', 'octobre', 'novembre', 'd cembre'],
+	monthNamesShort: ['janv.', 'f vr.', 'mars', 'avril', 'mai', 'juin',
+		'juil.', 'ao t', 'sept.', 'oct.', 'nov.', 'd c.'],
 	dayNames: ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
 	dayNamesShort: ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
 	dayNamesMin: ['D', 'L', 'M', 'M', 'J', 'V', 'S'],

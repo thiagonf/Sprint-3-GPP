@@ -54,7 +54,7 @@ class TestPatientForm(TestCase):
         self.UF_invalid_MIN = 'A'
         self.UF_invalid_MAX = 'AAA'
 
-        self.city_valid = 'Brasília'
+        self.city_valid = 'Bras lia'
         self.city_invalid = ''
         self.city_invalid_MAX = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'
 

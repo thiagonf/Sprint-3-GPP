@@ -13,8 +13,8 @@
   <table class="table table-striped table-bordered table-hover">
     <thead>
       <th>{% trans "Nome" %}</th>
-      <th>{% trans "Laboratório" %}</th>
-      <th>{% trans "Restrição" %}</th>
+      <th>{% trans "Laborat rio" %}</th>
+      <th>{% trans "Restri o" %}</th>
     </thead>
 
     <tbody>
@@ -28,14 +28,14 @@
           {% if medication.is_restricted %}
             <td>{% trans "Sim" %}</td>
           {% else %}
-            <td>{% trans "Não" %}</td>
+            <td>{% trans "N o" %}</td>
           {% endif %}
 
         </tr>
 
       {% empty %}
 
-        <li>{% trans "Não existem medicamentos cadastrados." %}</li>
+        <li>{% trans "N o existem medicamentos cadastrados." %}</li>
 
       {% endfor %}
     </tbody>

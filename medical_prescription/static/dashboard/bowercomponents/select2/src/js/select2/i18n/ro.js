@@ -24,7 +24,7 @@ define(function () {
       return message;
     },
     loadingMore: function () {
-      return 'Se încarcă mai multe rezultate…';
+      return 'Se  ncarcă mai multe rezultate…';
     },
     maximumSelected: function (args) {
       var message = 'Aveți voie să selectați cel mult ' + args.maximum;

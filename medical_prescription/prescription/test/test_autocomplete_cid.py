@@ -18,7 +18,7 @@ class TestRequiredAutocompleteCid(TestCase):
         self.health_professional = HealthProfessional.objects.create_user(email='doctor@doctor.com',
                                                                           password='senha12')
         self.id_cid_10 = 'A00'
-        self.description = 'A00	Cólera devida a Vibrio cholerae 01, biótipo cholerae'
+        self.description = 'A00	C lera devida a Vibrio cholerae 01, bi tipo cholerae'
         self.disease = Disease(id_cid_10=self.id_cid_10, description=self.description)
         self.disease.save()
 

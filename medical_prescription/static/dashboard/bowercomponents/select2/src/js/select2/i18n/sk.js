@@ -13,24 +13,24 @@ define(function () {
       var overChars = args.input.length - args.maximum;
 
       if (overChars == 1) {
-        return 'Prosím, zadajte o jeden znak menej';
+        return 'Pros m, zadajte o jeden znak menej';
       } else if (overChars >= 2 && overChars <= 4) {
-        return 'Prosím, zadajte o ' + smallNumbers[overChars](true) +
+        return 'Pros m, zadajte o ' + smallNumbers[overChars](true) +
           ' znaky menej';
       } else {
-        return 'Prosím, zadajte o ' + overChars + ' znakov menej';
+        return 'Pros m, zadajte o ' + overChars + ' znakov menej';
       }
     },
     inputTooShort: function (args) {
       var remainingChars = args.minimum - args.input.length;
 
       if (remainingChars == 1) {
-        return 'Prosím, zadajte ešte jeden znak';
+        return 'Pros m, zadajte ešte jeden znak';
       } else if (remainingChars <= 4) {
-        return 'Prosím, zadajte ešte ďalšie ' +
+        return 'Pros m, zadajte ešte ďalšie ' +
           smallNumbers[remainingChars](true) + ' znaky';
       } else {
-        return 'Prosím, zadajte ešte ďalších ' + remainingChars + ' znakov';
+        return 'Pros m, zadajte ešte ďalš ch ' + remainingChars + ' znakov';
       }
     },
     loadingMore: function () {
@@ -38,19 +38,19 @@ define(function () {
     },
     maximumSelected: function (args) {
       if (args.maximum == 1) {
-        return 'Môžete zvoliť len jednu položku';
+        return 'M žete zvoliť len jednu položku';
       } else if (args.maximum >= 2 && args.maximum <= 4) {
-        return 'Môžete zvoliť najviac ' + smallNumbers[args.maximum](false) +
+        return 'M žete zvoliť najviac ' + smallNumbers[args.maximum](false) +
           ' položky';
       } else {
-        return 'Môžete zvoliť najviac ' + args.maximum + ' položiek';
+        return 'M žete zvoliť najviac ' + args.maximum + ' položiek';
       }
     },
     noResults: function () {
       return 'Nenašli sa žiadne položky';
     },
     searching: function () {
-      return 'Vyhľadávanie…';
+      return 'Vyhľad vanie…';
     }
   };
 });

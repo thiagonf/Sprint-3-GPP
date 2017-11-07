@@ -37,7 +37,7 @@
      3    Fredrik Enestad         0.2%
      3    Ben Lindsey             0.2%
      3    Tyson Tate              0.2%
-     3    Mathieu Desvé          0.2%
+     3    Mathieu Desv           0.2%
      3    Valentin Agachi         0.2%
      3    Wil Moore III           0.2%
      3    Merrick Christensen     0.2%
@@ -52,7 +52,7 @@
      2    Quang Van               0.2%
      2    Glen Mailer             0.2%
      2    Justin DuJardin         0.2%
-     2    FARKAS Máté           0.2%
+     2    FARKAS M t            0.2%
      2    Raynos                  0.2%
      2    Michael Riley           0.2%
      2    Michael Schoonmaker     0.2%
@@ -158,7 +158,7 @@
      1    Koen Punt               0.1%
      1    Laszlo Bacsi            0.1%
      1    Liam Newman             0.1%
-     1    László Bácsi         0.1%
+     1    L szl  B csi         0.1%
      1    Maciej Małecki         0.1%
      1    Mal Graty               0.1%
      1    Marc Kuo                0.1%

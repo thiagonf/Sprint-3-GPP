@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("copyformatting","az",{label:"Formatı köçür",notification:{copied:"Format köçürülüb",applied:"Format tədbiq edilib",canceled:"Format imtina edilib",failed:"Format etmək mümkün deyil. Siz üslubları köçürmədən onları tədbiq edə bilməzsiniz."}});
+﻿CKEDITOR.plugins.setLang("copyformatting","az",{label:"Formatı kö ür",notification:{copied:"Format kö ürülüb",applied:"Format tədbiq edilib",canceled:"Format imtina edilib",failed:"Format etmək mümkün deyil. Siz üslubları kö ürmədən onları tədbiq edə bilməzsiniz."}});

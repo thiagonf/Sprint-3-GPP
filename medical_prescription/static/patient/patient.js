@@ -45,13 +45,13 @@ $(document).ready(function($) {
           } //end if.
           else {
             clean_form_cep();
-            alert("CEP não encontrado.");
+            alert("CEP n o encontrado.");
           }
         });
       } //end if.
       else {
         clean_form_cep();
-        alert("Formato de CEP inválido.");
+        alert("Formato de CEP inv lido.");
       }
     } //end if.
     else {

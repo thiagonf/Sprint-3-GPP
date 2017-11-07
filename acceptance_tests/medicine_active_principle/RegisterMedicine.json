@@ -54,7 +54,7 @@
     {
       "Command": "click",
       "Target": "/html/body/div/div[1]/section/div/form/font[3]/span",
-      "Value": "Laboratório"
+      "Value": "Laborat rio"
     },
     {
       "Command": "click",
@@ -74,7 +74,7 @@
     {
       "Command": "click",
       "Target": "/html/body/div/div[1]/section/div/form/font[4]/span",
-      "Value": "Descrição"
+      "Value": "Descri o"
     },
     {
       "Command": "click",
@@ -84,7 +84,7 @@
     {
       "Command": "type",
       "Target": "id=id_description",
-      "Value": "Remédio para febre"
+      "Value": "Rem dio para febre"
     },
     {
       "Command": "click",
@@ -94,7 +94,7 @@
     {
       "Command": "assertText",
       "Target": "/html/body/div/div[1]/section/div/form/font[5]/span",
-      "Value": "Restrição"
+      "Value": "Restri o"
     },
     {
       "Command": "clickAndWait",

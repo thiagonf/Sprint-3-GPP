@@ -4,24 +4,24 @@ define(function () {
     inputTooLong: function (args) {
       var overChars = args.input.length - args.maximum;
 
-      return 'Túl hosszú. ' + overChars + ' karakterrel több, mint kellene.';
+      return 'T l hossz . ' + overChars + ' karakterrel több, mint kellene.';
     },
     inputTooShort: function (args) {
       var remainingChars = args.minimum - args.input.length;
 
-      return 'Túl rövid. Még ' + remainingChars + ' karakter hiányzik.';
+      return 'T l rövid. M g ' + remainingChars + ' karakter hi nyzik.';
     },
     loadingMore: function () {
-      return 'Töltés…';
+      return 'Tölt s…';
     },
     maximumSelected: function (args) {
-      return 'Csak ' + args.maximum + ' elemet lehet kiválasztani.';
+      return 'Csak ' + args.maximum + ' elemet lehet kiv lasztani.';
     },
     noResults: function () {
-      return 'Nincs találat.';
+      return 'Nincs tal lat.';
     },
     searching: function () {
-      return 'Keresés…';
+      return 'Keres s…';
     }
   };
 });

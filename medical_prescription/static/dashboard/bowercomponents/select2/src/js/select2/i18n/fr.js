@@ -2,7 +2,7 @@ define(function () {
   // French
   return {
     errorLoading: function () {
-      return 'Les résultats ne peuvent pas être chargés.';
+      return 'Les r sultats ne peuvent pas  tre charg s.';
     },
     inputTooLong: function (args) {
       var overChars = args.input.length - args.maximum;
@@ -27,11 +27,11 @@ define(function () {
       return message;
     },
     loadingMore: function () {
-      return 'Chargement de résultats supplémentaires…';
+      return 'Chargement de r sultats suppl mentaires…';
     },
     maximumSelected: function (args) {
-      var message = 'Vous pouvez seulement sélectionner ' +
-        args.maximum + ' élément';
+      var message = 'Vous pouvez seulement s lectionner ' +
+        args.maximum + '  l ment';
 
       if (args.maximum !== 1) {
         message += 's';
@@ -40,7 +40,7 @@ define(function () {
       return message;
     },
     noResults: function () {
-      return 'Aucun résultat trouvé';
+      return 'Aucun r sultat trouv ';
     },
     searching: function () {
       return 'Recherche en cours…';

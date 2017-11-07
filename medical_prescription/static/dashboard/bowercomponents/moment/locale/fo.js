@@ -11,11 +11,11 @@
 
 
 var fo = moment.defineLocale('fo', {
-    months : 'januar_februar_mars_apríl_mai_juni_juli_august_september_oktober_november_desember'.split('_'),
+    months : 'januar_februar_mars_apr l_mai_juni_juli_august_september_oktober_november_desember'.split('_'),
     monthsShort : 'jan_feb_mar_apr_mai_jun_jul_aug_sep_okt_nov_des'.split('_'),
-    weekdays : 'sunnudagur_mánadagur_týsdagur_mikudagur_hósdagur_fríggjadagur_leygardagur'.split('_'),
-    weekdaysShort : 'sun_mán_týs_mik_hós_frí_ley'.split('_'),
-    weekdaysMin : 'su_má_tý_mi_hó_fr_le'.split('_'),
+    weekdays : 'sunnudagur_m nadagur_týsdagur_mikudagur_h sdagur_fr ggjadagur_leygardagur'.split('_'),
+    weekdaysShort : 'sun_m n_týs_mik_h s_fr _ley'.split('_'),
+    weekdaysMin : 'su_m _tý_mi_h _fr_le'.split('_'),
     longDateFormat : {
         LT : 'HH:mm',
         LTS : 'HH:mm:ss',
@@ -25,27 +25,27 @@ var fo = moment.defineLocale('fo', {
         LLLL : 'dddd D. MMMM, YYYY HH:mm'
     },
     calendar : {
-        sameDay : '[Í dag kl.] LT',
-        nextDay : '[Í morgin kl.] LT',
+        sameDay : '[  dag kl.] LT',
+        nextDay : '[  morgin kl.] LT',
         nextWeek : 'dddd [kl.] LT',
-        lastDay : '[Í gjár kl.] LT',
-        lastWeek : '[síðstu] dddd [kl] LT',
+        lastDay : '[  gj r kl.] LT',
+        lastWeek : '[s ðstu] dddd [kl] LT',
         sameElse : 'L'
     },
     relativeTime : {
         future : 'um %s',
-        past : '%s síðani',
-        s : 'fá sekund',
+        past : '%s s ðani',
+        s : 'f  sekund',
         m : 'ein minutt',
         mm : '%d minuttir',
-        h : 'ein tími',
-        hh : '%d tímar',
+        h : 'ein t mi',
+        hh : '%d t mar',
         d : 'ein dagur',
         dd : '%d dagar',
-        M : 'ein mánaði',
-        MM : '%d mánaðir',
-        y : 'eitt ár',
-        yy : '%d ár'
+        M : 'ein m naði',
+        MM : '%d m naðir',
+        y : 'eitt  r',
+        yy : '%d  r'
     },
     dayOfMonthOrdinalParse: /\d{1,2}\./,
     ordinal : '%d.',

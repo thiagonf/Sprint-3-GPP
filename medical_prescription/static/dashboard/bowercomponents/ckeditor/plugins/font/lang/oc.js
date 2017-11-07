@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("font","oc",{fontSize:{label:"Talha",voiceLabel:"Talha de poliça",panelTitle:"Talha de poliça"},label:"Poliça",panelTitle:"Estil de poliça",voiceLabel:"Poliça"});
+﻿CKEDITOR.plugins.setLang("font","oc",{fontSize:{label:"Talha",voiceLabel:"Talha de poli a",panelTitle:"Talha de poli a"},label:"Poli a",panelTitle:"Estil de poli a",voiceLabel:"Poli a"});

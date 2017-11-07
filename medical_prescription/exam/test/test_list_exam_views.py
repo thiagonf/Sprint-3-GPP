@@ -16,7 +16,7 @@ class ListExamsTest(TestCase):
                                                    password='senha12',
                                                    CEP='72850735',
                                                    UF='DF',
-                                                   city='Brasília',
+                                                   city='Bras lia',
                                                    neighborhood='Asa sul',
                                                    complement='Bloco 2 QD 701')
         self.user = User.objects.create_user(email='user@user.com', password='senha12')

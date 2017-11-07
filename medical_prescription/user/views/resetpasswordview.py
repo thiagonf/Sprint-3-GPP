@@ -48,7 +48,7 @@ class ResetPasswordView(FormView):
             user = User.objects.get(email=email)
         except:
             logger.exception("User not found.")
-            return render(request, 'message.html', {"message": "usuário não encontrado"})
+            return render(request, 'message.html', {"message": "usu rio n o encontrado"})
 
         try:
 

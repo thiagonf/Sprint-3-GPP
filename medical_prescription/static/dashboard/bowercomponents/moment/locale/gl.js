@@ -14,9 +14,9 @@ var gl = moment.defineLocale('gl', {
     months : 'xaneiro_febreiro_marzo_abril_maio_xuño_xullo_agosto_setembro_outubro_novembro_decembro'.split('_'),
     monthsShort : 'xan._feb._mar._abr._mai._xuñ._xul._ago._set._out._nov._dec.'.split('_'),
     monthsParseExact: true,
-    weekdays : 'domingo_luns_martes_mércores_xoves_venres_sábado'.split('_'),
-    weekdaysShort : 'dom._lun._mar._mér._xov._ven._sáb.'.split('_'),
-    weekdaysMin : 'do_lu_ma_mé_xo_ve_sá'.split('_'),
+    weekdays : 'domingo_luns_martes_m rcores_xoves_venres_s bado'.split('_'),
+    weekdaysShort : 'dom._lun._mar._m r._xov._ven._s b.'.split('_'),
+    weekdaysMin : 'do_lu_ma_m _xo_ve_s '.split('_'),
     weekdaysParseExact : true,
     longDateFormat : {
         LT : 'H:mm',
@@ -28,19 +28,19 @@ var gl = moment.defineLocale('gl', {
     },
     calendar : {
         sameDay : function () {
-            return '[hoxe ' + ((this.hours() !== 1) ? 'ás' : 'á') + '] LT';
+            return '[hoxe ' + ((this.hours() !== 1) ? ' s' : ' ') + '] LT';
         },
         nextDay : function () {
-            return '[mañá ' + ((this.hours() !== 1) ? 'ás' : 'á') + '] LT';
+            return '[mañ  ' + ((this.hours() !== 1) ? ' s' : ' ') + '] LT';
         },
         nextWeek : function () {
-            return 'dddd [' + ((this.hours() !== 1) ? 'ás' : 'a') + '] LT';
+            return 'dddd [' + ((this.hours() !== 1) ? ' s' : 'a') + '] LT';
         },
         lastDay : function () {
-            return '[onte ' + ((this.hours() !== 1) ? 'á' : 'a') + '] LT';
+            return '[onte ' + ((this.hours() !== 1) ? ' ' : 'a') + '] LT';
         },
         lastWeek : function () {
-            return '[o] dddd [pasado ' + ((this.hours() !== 1) ? 'ás' : 'a') + '] LT';
+            return '[o] dddd [pasado ' + ((this.hours() !== 1) ? ' s' : 'a') + '] LT';
         },
         sameElse : 'L'
     },
@@ -57,8 +57,8 @@ var gl = moment.defineLocale('gl', {
         mm : '%d minutos',
         h : 'unha hora',
         hh : '%d horas',
-        d : 'un día',
-        dd : '%d días',
+        d : 'un d a',
+        dd : '%d d as',
         M : 'un mes',
         MM : '%d meses',
         y : 'un ano',

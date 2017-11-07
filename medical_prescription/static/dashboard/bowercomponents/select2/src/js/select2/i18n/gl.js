@@ -7,7 +7,7 @@ define(function () {
       var message = 'Elimine ';
 
       if (overChars === 1) {
-        message += 'un carácter';
+        message += 'un car cter';
       } else {
         message += overChars + ' caracteres';
       }
@@ -20,7 +20,7 @@ define(function () {
       var message = 'Engada ';
 
       if (remainingChars === 1) {
-        message += 'un carácter';
+        message += 'un car cter';
       } else {
         message += remainingChars + ' caracteres';
       }
@@ -28,10 +28,10 @@ define(function () {
       return message;
     },
     loadingMore: function () {
-      return 'Cargando máis resultados…';
+      return 'Cargando m is resultados…';
     },
     maximumSelected: function (args) {
-      var message = 'Só pode ';
+      var message = 'S  pode ';
 
       if (args.maximum === 1) {
         message += 'un elemento';

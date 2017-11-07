@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("bidi","hu",{ltr:"Szöveg iránya balról jobbra",rtl:"Szöveg iránya jobbról balra"});
+﻿CKEDITOR.plugins.setLang("bidi","hu",{ltr:"Szöveg ir nya balr l jobbra",rtl:"Szöveg ir nya jobbr l balra"});

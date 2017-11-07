@@ -12,10 +12,10 @@ define(function () {
       return remainingChars + ' simvol daxil edin';
     },
     loadingMore: function () {
-      return 'Daha çox nəticə yüklənir…';
+      return 'Daha  ox nəticə yüklənir…';
     },
     maximumSelected: function (args) {
-      return 'Sadəcə ' + args.maximum + ' element seçə bilərsiniz';
+      return 'Sadəcə ' + args.maximum + ' element se ə bilərsiniz';
     },
     noResults: function () {
       return 'Nəticə tapılmadı';

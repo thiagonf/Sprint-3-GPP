@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: medical_prescription/disease/templates/list_disease.html:7
-msgid "Código"
+msgid "C digo"
 msgstr "Code"
 
 #: medical_prescription/disease/templates/list_disease.html:8
@@ -27,11 +27,11 @@ msgstr "Code"
 #: medical_prescription/exam/templates/update_customexam.html:23
 #: medical_prescription/medication/templates/create_medication_form.html:43
 #: medical_prescription/medication/templates/edit_medication.html:43
-msgid "Descrição"
+msgid "Descri o"
 msgstr "Description"
 
 #: medical_prescription/disease/templates/list_disease.html:37
-msgid "Não existem doenças cadastradas."
+msgid "N o existem doen as cadastradas."
 msgstr "No diseases were found in the database."
 
 #: medical_prescription/exam/templates/create_custom_exams.html:13
@@ -66,26 +66,26 @@ msgstr "Edit"
 
 #: medical_prescription/exam/templates/list_custom_exams.html:30
 #: medical_prescription/exam/templates/list_exams.html:26
-msgid "Página Anterior"
+msgid "P gina Anterior"
 msgstr "Previous Page"
 
 #: medical_prescription/exam/templates/list_custom_exams.html:36
 #: medical_prescription/exam/templates/list_exams.html:32
-msgid "Próxima Página"
+msgid "Pr xima P gina"
 msgstr "Next Page"
 
 #: medical_prescription/exam/templates/list_exams.html:6
-msgid "Código Tuss"
+msgid "C digo Tuss"
 msgstr "Tuss Code"
 
 #: medical_prescription/landing/templates/landing.html:14
 #: medical_prescription/templates/landing/nav_bar.html:47
-msgid "Profissional de Saúde"
+msgid "Profissional de Sa de"
 msgstr "Health Professional"
 
 #: medical_prescription/landing/templates/landing.html:17
 #: medical_prescription/landing/templates/landing.html:39
-msgid "Já possui uma conta?"
+msgid "J  possui uma conta?"
 msgstr "Have an Account?"
 
 #: medical_prescription/landing/templates/landing.html:18
@@ -95,7 +95,7 @@ msgstr "Log in now"
 
 #: medical_prescription/landing/templates/landing.html:21
 #: medical_prescription/landing/templates/landing.html:43
-msgid "Não possui?"
+msgid "N o possui?"
 msgstr "Don't have one?"
 
 #: medical_prescription/landing/templates/landing.html:22
@@ -109,7 +109,7 @@ msgid "Paciente"
 msgstr "Patient"
 
 #: medical_prescription/landing/templates/landing.html:44
-msgid "Converse com seu médico agora para receber seu convite de acesso!"
+msgid "Converse com seu m dico agora para receber seu convite de acesso!"
 msgstr "Check with your health professional about obtaining an invitation!"
 
 #: medical_prescription/medical_prescription/settings.py:82
@@ -124,19 +124,19 @@ msgstr ""
 #: medical_prescription/medication/templates/create_medication_form.html:33
 #: medical_prescription/medication/templates/edit_medication.html:33
 #: medical_prescription/medication/templates/list_all_medications.html:16
-msgid "Laboratório"
+msgid "Laborat rio"
 msgstr "Laboratory"
 
 #: medical_prescription/medication/forms/create_form.py:22
 #: medical_prescription/medication/templates/create_medication_form.html:25
 #: medical_prescription/medication/templates/edit_medication.html:25
-msgid "Princípio Ativo"
+msgid "Princ pio Ativo"
 msgstr "Active Ingredient"
 
 #: medical_prescription/medication/templates/create_medication_form.html:52
 #: medical_prescription/medication/templates/edit_medication.html:52
 #: medical_prescription/medication/templates/list_all_medications.html:17
-msgid "Restrição"
+msgid "Restri o"
 msgstr "Restricted"
 
 #: medical_prescription/medication/templates/create_medication_form.html:59
@@ -163,12 +163,12 @@ msgid "Sim"
 msgstr "Yes"
 
 #: medical_prescription/medication/templates/list_all_medications.html:31
-msgid "Não"
+msgid "N o"
 msgstr "No"
 
 #: medical_prescription/medication/templates/list_all_medications.html:38
 #: medical_prescription/medication/templates/list_medication.html:30
-msgid "Não existem medicamentos cadastrados."
+msgid "N o existem medicamentos cadastrados."
 msgstr "No medications were found in the database."
 
 #: medical_prescription/medication/templates/list_medication.html:17
@@ -177,7 +177,7 @@ msgstr "Delete"
 
 #: medical_prescription/medicine/templates/list_medicine.html:27
 #: medical_prescription/medicine/templates/list_medicine.html:79
-msgid "Não existem princípios ativos cadastrados."
+msgid "N o existem princ pios ativos cadastrados."
 msgstr "No active ingredients were found in the database."
 
 #: medical_prescription/medicine/templates/register_custom_principle.html:8
@@ -186,7 +186,7 @@ msgstr "Create"
 
 #: medical_prescription/templates/dashboardHealthProfessional/nav_bar.html:24
 #: medical_prescription/templates/editHealthProfessionalLanding/nav_bar.html:38
-msgid "Nova Prescrição"
+msgid "Nova Prescri o"
 msgstr "New Prescription"
 
 #: medical_prescription/templates/dashboardHealthProfessional/nav_bar.html:25
@@ -196,7 +196,7 @@ msgstr "New Manipulated Medicine"
 
 #: medical_prescription/templates/dashboardHealthProfessional/nav_bar.html:26
 #: medical_prescription/templates/editHealthProfessionalLanding/nav_bar.html:40
-msgid "Personalizar Prescrições"
+msgid "Personalizar Prescri es"
 msgstr "Customize Prescription"
 
 #: medical_prescription/templates/dashboardHealthProfessional/nav_bar.html:47
@@ -206,12 +206,12 @@ msgstr "View all Messages"
 
 #: medical_prescription/templates/dashboardHealthProfessional/nav_bar.html:72
 #: medical_prescription/templates/editHealthProfessionalLanding/nav_bar.html:77
-msgid "Veja todas as notificações !"
+msgid "Veja todas as notifica es !"
 msgstr "View all Notifications"
 
 #: medical_prescription/templates/dashboardHealthProfessional/nav_bar.html:92
 #: medical_prescription/templates/editHealthProfessionalLanding/nav_bar.html:96
-msgid "Especialização"
+msgid "Especializa o"
 msgstr "Speciality"
 
 #: medical_prescription/templates/dashboardHealthProfessional/nav_bar.html:99
@@ -231,7 +231,7 @@ msgid "Editar Senha"
 msgstr "Edit"
 
 #: medical_prescription/templates/dashboardHealthProfessional/side_bar.html:15
-msgid "Usuário"
+msgid "Usu rio"
 msgstr "User"
 
 #: medical_prescription/templates/dashboardHealthProfessional/side_bar.html:37
@@ -264,16 +264,16 @@ msgid "Visualizar medicamentos"
 msgstr "Visualize Medications"
 
 #: medical_prescription/templates/dashboardHealthProfessional/side_bar.html:59
-msgid "Criar princípios ativos"
+msgid "Criar princ pios ativos"
 msgstr "Create Active Ingredients"
 
 #: medical_prescription/templates/dashboardHealthProfessional/side_bar.html:60
-msgid "Visualizar princípios ativos"
+msgid "Visualizar princ pios ativos"
 msgstr "Visualize Active Ingredients"
 
 #: medical_prescription/templates/dashboardHealthProfessional/side_bar.html:65
 #: medical_prescription/templates/dashboardHealthProfessional/side_bar.html:71
-msgid "Doenças"
+msgid "Doen as"
 msgstr "Diseases"
 
 #: medical_prescription/templates/dashboardHealthProfessional/side_bar.html:76
@@ -293,11 +293,11 @@ msgid "Visualizar Exames Personalizados"
 msgstr "Visualize Custom Exams"
 
 #: medical_prescription/templates/dashboardPatient/side_bar.html:14
-msgid "Página Principal"
+msgid "P gina Principal"
 msgstr "Homepage"
 
 #: medical_prescription/templates/dashboardPatient/side_bar.html:32
-msgid "Histórico Médico"
+msgid "Hist rico M dico"
 msgstr "Medical History"
 
 #: medical_prescription/templates/editHealthProfessionalLanding/footer.html:11
@@ -334,7 +334,7 @@ msgid "Senha"
 msgstr "Password"
 
 #: medical_prescription/user/templates/edit_health_professional_password.html:5
-msgid "Edição de Senha"
+msgid "Edi o de Senha"
 msgstr "Password Edit"
 
 #: medical_prescription/user/templates/edit_health_professional_password.html:17
@@ -387,12 +387,12 @@ msgid "Esqueceu sua senha?"
 msgstr "Forgot your password?"
 
 #: medical_prescription/user/templates/login_healthprofessional.html:44
-msgid "É um profissional de saúde e não possui uma conta?<br>Cadastre-se já"
+msgid "  um profissional de sa de e n o possui uma conta?<br>Cadastre-se j "
 msgstr ""
 "Are you a Health Professional and don't have an Account?<br>Register now"
 
 #: medical_prescription/user/templates/login_patient.html:44
-msgid "É um paciente e não possui uma conta?<br>Cadastre-se já"
+msgid "  um paciente e n o possui uma conta?<br>Cadastre-se j "
 msgstr "Are you a Patient and don't have an Account?<br>Register now"
 
 #: medical_prescription/user/templates/password_confirm.html:6
@@ -410,7 +410,7 @@ msgid "Salvar"
 msgstr "Save"
 
 #: medical_prescription/user/templates/register_health_professional.html:6
-msgid "Cadastro Profissional de Saúde"
+msgid "Cadastro Profissional de Sa de"
 msgstr "Health Professional Register"
 
 #: medical_prescription/user/templates/register_health_professional.html:38
@@ -432,7 +432,7 @@ msgid "Estado"
 msgstr "State"
 
 #: medical_prescription/user/templates/register_health_professional.html:105
-msgid "Já possui conta?Faça login agora!"
+msgid "J  possui conta?Fa a login agora!"
 msgstr "Have an Account?"
 
 #: medical_prescription/user/templates/register_patient.html:6

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("smiley","cs",{options:"Nastavení smajlíků",title:"Vkládání smajlíků",toolbar:"Smajlíci"});
+﻿CKEDITOR.plugins.setLang("smiley","cs",{options:"Nastaven  smajl ků",title:"Vkl d n  smajl ků",toolbar:"Smajl ci"});

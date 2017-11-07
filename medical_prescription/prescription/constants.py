@@ -1,7 +1,7 @@
 MAX_LENGTH_POSOLOGY = 250
 MAX_LENGTH_DESCRIPTION_AUTOCOMPLETE = 175
 
-QUANTITY_CHOICES = ((0, 'Uso Contínuo'),
+QUANTITY_CHOICES = ((0, 'Uso Cont nuo'),
                     (1, '1 unidade'),
                     (2, '2 unidades'),
                     (3, '3 unidades'),

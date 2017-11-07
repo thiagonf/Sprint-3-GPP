@@ -12,7 +12,7 @@ class UserForm(forms.ModelForm):
     Define fields in user form.
     """
     name = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control s-form-v3__input',
-                                                         'placeholder': '* João da Silva '}))
+                                                         'placeholder': '* Jo o da Silva '}))
     date_of_birth = FormattedDateField(widget=forms.DateInput(attrs={'class': 'form-control s-form-v3__input',
                                                                      'placeholder': '*Ex: dd/mm/aaaa'}))
     password = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control s-form-v3__input',

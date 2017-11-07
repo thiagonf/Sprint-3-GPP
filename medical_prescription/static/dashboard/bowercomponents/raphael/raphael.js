@@ -1539,8 +1539,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     o         t2: (number) t value for segment of path2
 	     o         segment1: (number) order number for segment of path1
 	     o         segment2: (number) order number for segment of path2
-	     o         bez1: (array) eight coordinates representing beziér curve for the segment of path1
-	     o         bez2: (array) eight coordinates representing beziér curve for the segment of path2
+	     o         bez1: (array) eight coordinates representing bezi r curve for the segment of path1
+	     o         bez2: (array) eight coordinates representing bezi r curve for the segment of path2
 	     o     }
 	     o ]
 	    \*/
@@ -3420,8 +3420,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	     # <tr><td>V</td><td>vertical lineto</td><td>y+</td></tr>
 	     # <tr><td>C</td><td>curveto</td><td>(x1 y1 x2 y2 x y)+</td></tr>
 	     # <tr><td>S</td><td>smooth curveto</td><td>(x2 y2 x y)+</td></tr>
-	     # <tr><td>Q</td><td>quadratic Bézier curveto</td><td>(x1 y1 x y)+</td></tr>
-	     # <tr><td>T</td><td>smooth quadratic Bézier curveto</td><td>(x y)+</td></tr>
+	     # <tr><td>Q</td><td>quadratic B zier curveto</td><td>(x1 y1 x y)+</td></tr>
+	     # <tr><td>T</td><td>smooth quadratic B zier curveto</td><td>(x y)+</td></tr>
 	     # <tr><td>A</td><td>elliptical arc</td><td>(rx ry x-axis-rotation large-arc-flag sweep-flag x y)+</td></tr>
 	     # <tr><td>R</td><td><a href="http://en.wikipedia.org/wiki/Catmull–Rom_spline#Catmull.E2.80.93Rom_spline">Catmull-Rom curveto</a>*</td><td>x1 y1 (x y)+</td></tr></tbody></table>
 	     * * “Catmull-Rom curveto” is a not standard SVG command and added in 2.0 to make life easier.
@@ -5140,9 +5140,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	     * Raphael.registerFont
 	     [ method ]
 	     **
-	     * Adds given font to the registered set of fonts for Raphaël. Should be used as an internal call from within Cufón’s font file.
+	     * Adds given font to the registered set of fonts for Raphaël. Should be used as an internal call from within Cuf n’s font file.
 	     * Returns original parameter, so it could be used with chaining.
-	     # <a href="http://wiki.github.com/sorccu/cufon/about">More about Cufón and how to convert your font form TTF, OTF, etc to JavaScript file.</a>
+	     # <a href="http://wiki.github.com/sorccu/cufon/about">More about Cuf n and how to convert your font form TTF, OTF, etc to JavaScript file.</a>
 	     **
 	     > Parameters
 	     **

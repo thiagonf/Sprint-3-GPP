@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("copyformatting","pt-br",{label:"Copiar Formatação",notification:{copied:"Formatação copiada",applied:"Formatação aplicada",canceled:"Formatação cancelada",failed:"A formatação falhou. Você não pode aplicar estilos sem copiá-los antes."}});
+﻿CKEDITOR.plugins.setLang("copyformatting","pt-br",{label:"Copiar Formata o",notification:{copied:"Formata o copiada",applied:"Formata o aplicada",canceled:"Formata o cancelada",failed:"A formata o falhou. Voc  n o pode aplicar estilos sem copi -los antes."}});

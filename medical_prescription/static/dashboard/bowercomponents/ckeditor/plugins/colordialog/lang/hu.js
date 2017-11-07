@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("colordialog","hu",{clear:"Ürítés",highlight:"Nagyítás",options:"Szín opciók",selected:"Kiválasztott",title:"Válasszon színt"});
+﻿CKEDITOR.plugins.setLang("colordialog","hu",{clear:"Ür t s",highlight:"Nagy t s",options:"Sz n opci k",selected:"Kiv lasztott",title:"V lasszon sz nt"});

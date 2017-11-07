@@ -1,6 +1,6 @@
 //! moment.js locale configuration
 //! locale : Spanish [es]
-//! author : Julio Napurí : https://github.com/julionc
+//! author : Julio Napur  : https://github.com/julionc
 
 ;(function (global, factory) {
    typeof exports === 'object' && typeof module !== 'undefined'
@@ -25,9 +25,9 @@ var es = moment.defineLocale('es', {
         }
     },
     monthsParseExact : true,
-    weekdays : 'domingo_lunes_martes_miércoles_jueves_viernes_sábado'.split('_'),
-    weekdaysShort : 'dom._lun._mar._mié._jue._vie._sáb.'.split('_'),
-    weekdaysMin : 'do_lu_ma_mi_ju_vi_sá'.split('_'),
+    weekdays : 'domingo_lunes_martes_mi rcoles_jueves_viernes_s bado'.split('_'),
+    weekdaysShort : 'dom._lun._mar._mi ._jue._vie._s b.'.split('_'),
+    weekdaysMin : 'do_lu_ma_mi_ju_vi_s '.split('_'),
     weekdaysParseExact : true,
     longDateFormat : {
         LT : 'H:mm',
@@ -63,8 +63,8 @@ var es = moment.defineLocale('es', {
         mm : '%d minutos',
         h : 'una hora',
         hh : '%d horas',
-        d : 'un día',
-        dd : '%d días',
+        d : 'un d a',
+        dd : '%d d as',
         M : 'un mes',
         MM : '%d meses',
         y : 'un año',

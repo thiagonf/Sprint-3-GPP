@@ -16,7 +16,7 @@
 }(function( datepicker ) {
 
 datepicker.regional['ro'] = {
-	closeText: 'Închide',
+	closeText: ' nchide',
 	prevText: '&#xAB; Luna precedentă',
 	nextText: 'Luna următoare &#xBB;',
 	currentText: 'Azi',
@@ -24,9 +24,9 @@ datepicker.regional['ro'] = {
 	'Iulie','August','Septembrie','Octombrie','Noiembrie','Decembrie'],
 	monthNamesShort: ['Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun',
 	'Iul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-	dayNames: ['Duminică', 'Luni', 'Marţi', 'Miercuri', 'Joi', 'Vineri', 'Sâmbătă'],
-	dayNamesShort: ['Dum', 'Lun', 'Mar', 'Mie', 'Joi', 'Vin', 'Sâm'],
-	dayNamesMin: ['Du','Lu','Ma','Mi','Jo','Vi','Sâ'],
+	dayNames: ['Duminică', 'Luni', 'Marţi', 'Miercuri', 'Joi', 'Vineri', 'S mbătă'],
+	dayNamesShort: ['Dum', 'Lun', 'Mar', 'Mie', 'Joi', 'Vin', 'S m'],
+	dayNamesMin: ['Du','Lu','Ma','Mi','Jo','Vi','S '],
 	weekHeader: 'Săpt',
 	dateFormat: 'dd.mm.yy',
 	firstDay: 1,

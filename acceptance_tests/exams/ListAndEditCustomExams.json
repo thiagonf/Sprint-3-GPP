@@ -54,7 +54,7 @@
     {
       "Command": "assertText",
       "Target": "/html/body/div/div[1]/section/form/div[2]/div/h4",
-      "Value": "Descrição"
+      "Value": "Descri o"
     },
     {
       "Command": "click",
@@ -64,7 +64,7 @@
     {
       "Command": "type",
       "Target": "id=id_description",
-      "Value": "Isso é um teste. Testando de novo."
+      "Value": "Isso   um teste. Testando de novo."
     },
     {
       "Command": "clickAndWait",

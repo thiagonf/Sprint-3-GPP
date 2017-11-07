@@ -4,7 +4,7 @@ define(function () {
     inputTooLong: function (args) {
       var overChars = args.input.length - args.maximum;
 
-      var message = 'Vui lòng nhập ít hơn ' + overChars + ' ký tự';
+      var message = 'Vui lòng nhập  t hơn ' + overChars + ' ký tự';
 
       if (overChars != 1) {
         message += 's';
@@ -20,15 +20,15 @@ define(function () {
       return message;
     },
     loadingMore: function () {
-      return 'Đang lấy thêm kết quả…';
+      return 'Đang lấy th m kết quả…';
     },
     maximumSelected: function (args) {
-      var message = 'Chỉ có thể chọn được ' + args.maximum + ' lựa chọn';
+      var message = 'Chỉ c  thể chọn được ' + args.maximum + ' lựa chọn';
 
       return message;
     },
     noResults: function () {
-      return 'Không tìm thấy kết quả';
+      return 'Kh ng tìm thấy kết quả';
     },
     searching: function () {
       return 'Đang tìm…';

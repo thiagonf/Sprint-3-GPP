@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("templates","az",{button:"Şablon",emptyListMsg:"(Heç bir şablon təyin edilməyib)",insertOption:"Həqiqi içindəkiləri əvəz et",options:"Şablonun seçimləri",selectPromptMsg:"Redaktor ilə açmaq üçün şablonu seçin",title:"İçindəkinin şablonu"});
+﻿CKEDITOR.plugins.setLang("templates","az",{button:"Şablon",emptyListMsg:"(He  bir şablon təyin edilməyib)",insertOption:"Həqiqi i indəkiləri əvəz et",options:"Şablonun se imləri",selectPromptMsg:"Redaktor ilə a maq ü ün şablonu se in",title:"İ indəkinin şablonu"});

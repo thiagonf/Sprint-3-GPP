@@ -24,9 +24,9 @@ export default moment.defineLocale('ro', {
     months : 'ianuarie_februarie_martie_aprilie_mai_iunie_iulie_august_septembrie_octombrie_noiembrie_decembrie'.split('_'),
     monthsShort : 'ian._febr._mart._apr._mai_iun._iul._aug._sept._oct._nov._dec.'.split('_'),
     monthsParseExact: true,
-    weekdays : 'duminică_luni_marți_miercuri_joi_vineri_sâmbătă'.split('_'),
-    weekdaysShort : 'Dum_Lun_Mar_Mie_Joi_Vin_Sâm'.split('_'),
-    weekdaysMin : 'Du_Lu_Ma_Mi_Jo_Vi_Sâ'.split('_'),
+    weekdays : 'duminică_luni_marți_miercuri_joi_vineri_s mbătă'.split('_'),
+    weekdaysShort : 'Dum_Lun_Mar_Mie_Joi_Vin_S m'.split('_'),
+    weekdaysMin : 'Du_Lu_Ma_Mi_Jo_Vi_S '.split('_'),
     longDateFormat : {
         LT : 'H:mm',
         LTS : 'H:mm:ss',
@@ -37,7 +37,7 @@ export default moment.defineLocale('ro', {
     },
     calendar : {
         sameDay: '[azi la] LT',
-        nextDay: '[mâine la] LT',
+        nextDay: '[m ine la] LT',
         nextWeek: 'dddd [la] LT',
         lastDay: '[ieri la] LT',
         lastWeek: '[fosta] dddd [la] LT',
@@ -45,8 +45,8 @@ export default moment.defineLocale('ro', {
     },
     relativeTime : {
         future : 'peste %s',
-        past : '%s în urmă',
-        s : 'câteva secunde',
+        past : '%s  n urmă',
+        s : 'c teva secunde',
         m : 'un minut',
         mm : relativeTimeWithPlural,
         h : 'o oră',

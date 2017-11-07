@@ -21,7 +21,7 @@ define(function () {
         message += 'i';
       }
 
-      message += ' í viðbót';
+      message += '   viðb t';
 
       return message;
     },
@@ -29,7 +29,7 @@ define(function () {
       return 'Sæki fleiri niðurstöður…';
     },
     maximumSelected: function (args) {
-      return 'Þú getur aðeins valið ' + args.maximum + ' atriði';
+      return 'Þ  getur aðeins valið ' + args.maximum + ' atriði';
     },
     noResults: function () {
       return 'Ekkert fannst';

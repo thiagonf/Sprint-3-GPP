@@ -34,7 +34,7 @@ class UpdateMedicationTest(TestCase):
                                                    password='senha12',
                                                    CEP='72850735',
                                                    UF='DF',
-                                                   city='Brasília',
+                                                   city='Bras lia',
                                                    neighborhood='Asa sul',
                                                    complement='Bloco 2 QD 701')
         self.recipe_name = "Examina alguma coisa"

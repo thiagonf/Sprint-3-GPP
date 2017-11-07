@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("mathjax","pt",{title:"Matemática em TeX",button:"Matemática",dialogInput:"Escreva aqui o seu TeX",docUrl:"http://en.wikibooks.org/wiki/LaTeX/Mathematics",docLabel:"Documentação TeX",loading:"a carregar ...",pathName:"matemática"});
+﻿CKEDITOR.plugins.setLang("mathjax","pt",{title:"Matem tica em TeX",button:"Matem tica",dialogInput:"Escreva aqui o seu TeX",docUrl:"http://en.wikibooks.org/wiki/LaTeX/Mathematics",docLabel:"Documenta o TeX",loading:"a carregar ...",pathName:"matem tica"});

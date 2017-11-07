@@ -1092,7 +1092,7 @@ function runLoggingCallbacks(key, scope, args) {
 }
 
 // Test for equality any JavaScript type.
-// Author: Philippe Rathé <prathe@gmail.com>
+// Author: Philippe Rath  <prathe@gmail.com>
 QUnit.equiv = (function() {
 
 	var innerEquiv; // the real equiv function

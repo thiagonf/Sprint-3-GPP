@@ -13,13 +13,13 @@
     },
     {
       "Command": "clickAndWait",
-      "Target": "link=Criar princípios ativos",
+      "Target": "link=Criar princ pios ativos",
       "Value": ""
     },
     {
       "Command": "assertText",
-      "Target": "link=Criar princípios ativos",
-      "Value": "Criar princípios ativos"
+      "Target": "link=Criar princ pios ativos",
+      "Value": "Criar princ pios ativos"
     },
     {
       "Command": "click",

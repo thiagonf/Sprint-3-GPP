@@ -11,11 +11,11 @@
 
 
 var ptBr = moment.defineLocale('pt-br', {
-    months : 'Janeiro_Fevereiro_Março_Abril_Maio_Junho_Julho_Agosto_Setembro_Outubro_Novembro_Dezembro'.split('_'),
+    months : 'Janeiro_Fevereiro_Mar o_Abril_Maio_Junho_Julho_Agosto_Setembro_Outubro_Novembro_Dezembro'.split('_'),
     monthsShort : 'Jan_Fev_Mar_Abr_Mai_Jun_Jul_Ago_Set_Out_Nov_Dez'.split('_'),
-    weekdays : 'Domingo_Segunda-feira_Terça-feira_Quarta-feira_Quinta-feira_Sexta-feira_Sábado'.split('_'),
-    weekdaysShort : 'Dom_Seg_Ter_Qua_Qui_Sex_Sáb'.split('_'),
-    weekdaysMin : 'Do_2ª_3ª_4ª_5ª_6ª_Sá'.split('_'),
+    weekdays : 'Domingo_Segunda-feira_Ter a-feira_Quarta-feira_Quinta-feira_Sexta-feira_S bado'.split('_'),
+    weekdaysShort : 'Dom_Seg_Ter_Qua_Qui_Sex_S b'.split('_'),
+    weekdaysMin : 'Do_2ª_3ª_4ª_5ª_6ª_S '.split('_'),
     weekdaysParseExact : true,
     longDateFormat : {
         LT : 'HH:mm',
@@ -27,19 +27,19 @@ var ptBr = moment.defineLocale('pt-br', {
     },
     calendar : {
         sameDay: '[Hoje às] LT',
-        nextDay: '[Amanhã às] LT',
+        nextDay: '[Amanh  às] LT',
         nextWeek: 'dddd [às] LT',
         lastDay: '[Ontem às] LT',
         lastWeek: function () {
             return (this.day() === 0 || this.day() === 6) ?
-                '[Último] dddd [às] LT' : // Saturday + Sunday
-                '[Última] dddd [às] LT'; // Monday - Friday
+                '[ ltimo] dddd [às] LT' : // Saturday + Sunday
+                '[ ltima] dddd [às] LT'; // Monday - Friday
         },
         sameElse: 'L'
     },
     relativeTime : {
         future : 'em %s',
-        past : '%s atrás',
+        past : '%s atr s',
         s : 'poucos segundos',
         m : 'um minuto',
         mm : '%d minutos',
@@ -47,7 +47,7 @@ var ptBr = moment.defineLocale('pt-br', {
         hh : '%d horas',
         d : 'um dia',
         dd : '%d dias',
-        M : 'um mês',
+        M : 'um m s',
         MM : '%d meses',
         y : 'um ano',
         yy : '%d anos'

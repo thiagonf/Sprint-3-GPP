@@ -8,11 +8,11 @@ import moment from '../moment';
 // After the year there should be a slash and the amount of years since December 26, 1979 in Roman numerals.
 // This is currently too difficult (maybe even impossible) to add.
 export default moment.defineLocale('tzl', {
-    months : 'Januar_Fevraglh_Març_Avrïu_Mai_Gün_Julia_Guscht_Setemvar_Listopäts_Noemvar_Zecemvar'.split('_'),
+    months : 'Januar_Fevraglh_Mar _Avrïu_Mai_Gün_Julia_Guscht_Setemvar_Listopäts_Noemvar_Zecemvar'.split('_'),
     monthsShort : 'Jan_Fev_Mar_Avr_Mai_Gün_Jul_Gus_Set_Lis_Noe_Zec'.split('_'),
-    weekdays : 'Súladi_Lúneçi_Maitzi_Márcuri_Xhúadi_Viénerçi_Sáturi'.split('_'),
-    weekdaysShort : 'Súl_Lún_Mai_Már_Xhú_Vié_Sát'.split('_'),
-    weekdaysMin : 'Sú_Lú_Ma_Má_Xh_Vi_Sá'.split('_'),
+    weekdays : 'S ladi_L ne i_Maitzi_M rcuri_Xh adi_Vi ner i_S turi'.split('_'),
+    weekdaysShort : 'S l_L n_Mai_M r_Xh _Vi _S t'.split('_'),
+    weekdaysMin : 'S _L _Ma_M _Xh_Vi_S '.split('_'),
     longDateFormat : {
         LT : 'HH.mm',
         LTS : 'HH.mm.ss',
@@ -66,8 +66,8 @@ export default moment.defineLocale('tzl', {
 function processRelativeTime(number, withoutSuffix, key, isFuture) {
     var format = {
         's': ['viensas secunds', '\'iensas secunds'],
-        'm': ['\'n míut', '\'iens míut'],
-        'mm': [number + ' míuts', '' + number + ' míuts'],
+        'm': ['\'n m ut', '\'iens m ut'],
+        'mm': [number + ' m uts', '' + number + ' m uts'],
         'h': ['\'n þora', '\'iensa þora'],
         'hh': [number + ' þoras', '' + number + ' þoras'],
         'd': ['\'n ziua', '\'iensa ziua'],

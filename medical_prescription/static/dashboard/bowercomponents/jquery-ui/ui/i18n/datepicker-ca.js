@@ -1,4 +1,4 @@
-/* Inicialització en català per a l'extensió 'UI date picker' per jQuery. */
+/* Inicialitzaci  en català per a l'extensi  'UI date picker' per jQuery. */
 /* Writers: (joan.leon@gmail.com). */
 (function( factory ) {
 	if ( typeof define === "function" && define.amd ) {
@@ -17,9 +17,9 @@ datepicker.regional['ca'] = {
 	prevText: 'Anterior',
 	nextText: 'Següent',
 	currentText: 'Avui',
-	monthNames: ['gener','febrer','març','abril','maig','juny',
+	monthNames: ['gener','febrer','mar ','abril','maig','juny',
 	'juliol','agost','setembre','octubre','novembre','desembre'],
-	monthNamesShort: ['gen','feb','març','abr','maig','juny',
+	monthNamesShort: ['gen','feb','mar ','abr','maig','juny',
 	'jul','ag','set','oct','nov','des'],
 	dayNames: ['diumenge','dilluns','dimarts','dimecres','dijous','divendres','dissabte'],
 	dayNamesShort: ['dg','dl','dt','dc','dj','dv','ds'],

@@ -1,1 +1,1 @@
-﻿CKEDITOR.plugins.setLang("sourcedialog","hu",{toolbar:"Forráskód",title:"Forráskód"});
+﻿CKEDITOR.plugins.setLang("sourcedialog","hu",{toolbar:"Forr sk d",title:"Forr sk d"});

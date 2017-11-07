@@ -66,7 +66,7 @@ New languages and styles:
 - *Mathematica* by [Daniel Kvasnička][]
 - *Autohotkey* by [Seongwon Lee][]
 - *Atelier* family of styles in 10 variants by [Bram de Haan][]
-- *Paraíso* styles by [Jan T. Sott][]
+- *Para so* styles by [Jan T. Sott][]
 
 Miscelleanous improvements:
 
@@ -205,10 +205,10 @@ Other notable changes:
 - Updated Rust keywords (thanks to [Dmitry Medvinsky][]).
 - Literal regexes can now be used in language definitions.
 - CoffeeScript highlighting is now significantly more robust and rich due to
-  input from [Cédric Néhémie][].
+  input from [C dric N h mie][].
 
 [Dmitry Medvinsky]: https://github.com/dmedvinsky
-[Cédric Néhémie]: https://github.com/abe33
+[C dric N h mie]: https://github.com/abe33
 
 
 ## Version 7.3

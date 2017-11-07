@@ -10,45 +10,45 @@
 }(this, (function (moment) { 'use strict';
 
 
-var weekEndings = 'vasárnap hétfőn kedden szerdán csütörtökön pénteken szombaton'.split(' ');
+var weekEndings = 'vas rnap h tfőn kedden szerd n csütörtökön p nteken szombaton'.split(' ');
 function translate(number, withoutSuffix, key, isFuture) {
     var num = number,
         suffix;
     switch (key) {
         case 's':
-            return (isFuture || withoutSuffix) ? 'néhány másodperc' : 'néhány másodperce';
+            return (isFuture || withoutSuffix) ? 'n h ny m sodperc' : 'n h ny m sodperce';
         case 'm':
             return 'egy' + (isFuture || withoutSuffix ? ' perc' : ' perce');
         case 'mm':
             return num + (isFuture || withoutSuffix ? ' perc' : ' perce');
         case 'h':
-            return 'egy' + (isFuture || withoutSuffix ? ' óra' : ' órája');
+            return 'egy' + (isFuture || withoutSuffix ? '  ra' : '  r ja');
         case 'hh':
-            return num + (isFuture || withoutSuffix ? ' óra' : ' órája');
+            return num + (isFuture || withoutSuffix ? '  ra' : '  r ja');
         case 'd':
             return 'egy' + (isFuture || withoutSuffix ? ' nap' : ' napja');
         case 'dd':
             return num + (isFuture || withoutSuffix ? ' nap' : ' napja');
         case 'M':
-            return 'egy' + (isFuture || withoutSuffix ? ' hónap' : ' hónapja');
+            return 'egy' + (isFuture || withoutSuffix ? ' h nap' : ' h napja');
         case 'MM':
-            return num + (isFuture || withoutSuffix ? ' hónap' : ' hónapja');
+            return num + (isFuture || withoutSuffix ? ' h nap' : ' h napja');
         case 'y':
-            return 'egy' + (isFuture || withoutSuffix ? ' év' : ' éve');
+            return 'egy' + (isFuture || withoutSuffix ? '  v' : '  ve');
         case 'yy':
-            return num + (isFuture || withoutSuffix ? ' év' : ' éve');
+            return num + (isFuture || withoutSuffix ? '  v' : '  ve');
     }
     return '';
 }
 function week(isFuture) {
-    return (isFuture ? '' : '[múlt] ') + '[' + weekEndings[this.day()] + '] LT[-kor]';
+    return (isFuture ? '' : '[m lt] ') + '[' + weekEndings[this.day()] + '] LT[-kor]';
 }
 
 var hu = moment.defineLocale('hu', {
-    months : 'január_február_március_április_május_június_július_augusztus_szeptember_október_november_december'.split('_'),
-    monthsShort : 'jan_feb_márc_ápr_máj_jún_júl_aug_szept_okt_nov_dec'.split('_'),
-    weekdays : 'vasárnap_hétfő_kedd_szerda_csütörtök_péntek_szombat'.split('_'),
-    weekdaysShort : 'vas_hét_kedd_sze_csüt_pén_szo'.split('_'),
+    months : 'janu r_febru r_m rcius_ prilis_m jus_j nius_j lius_augusztus_szeptember_okt ber_november_december'.split('_'),
+    monthsShort : 'jan_feb_m rc_ pr_m j_j n_j l_aug_szept_okt_nov_dec'.split('_'),
+    weekdays : 'vas rnap_h tfő_kedd_szerda_csütörtök_p ntek_szombat'.split('_'),
+    weekdaysShort : 'vas_h t_kedd_sze_csüt_p n_szo'.split('_'),
     weekdaysMin : 'v_h_k_sze_cs_p_szo'.split('_'),
     longDateFormat : {
         LT : 'H:mm',
@@ -82,7 +82,7 @@ var hu = moment.defineLocale('hu', {
         sameElse : 'L'
     },
     relativeTime : {
-        future : '%s múlva',
+        future : '%s m lva',
         past : '%s',
         s : translate,
         m : translate,

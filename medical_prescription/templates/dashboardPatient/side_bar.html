@@ -12,7 +12,7 @@
         <img src="{% static 'img/user.png' %}" class="img-circle" alt="User Image">
       </div>
       <div class="pull-left info">
-        <p>Usuário</p>
+        <p>Usu rio</p>
         {{ request.user.name }}
         <!-- Status -->
       </div>
@@ -40,7 +40,7 @@
       </li>
       <li><a href="#"><i class="fa fa-wechat"></i><span>Conversas</span></a></li>
       <li><a href="#"><i class="fa fa-users"></i><span>Exames</span></a></li>
-      <li><a href="{% url 'edit_patient_password' request.user.email %}"><i class="fa fa-users"></i><span>Configurações</span></a></li>
+      <li><a href="{% url 'edit_patient_password' request.user.email %}"><i class="fa fa-users"></i><span>Configura es</span></a></li>
     </ul>
 
     <!-- /.sidebar-menu -->

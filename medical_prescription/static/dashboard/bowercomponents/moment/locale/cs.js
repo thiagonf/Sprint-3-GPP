@@ -10,8 +10,8 @@
 }(this, (function (moment) { 'use strict';
 
 
-var months = 'leden_únor_březen_duben_květen_červen_červenec_srpen_září_říjen_listopad_prosinec'.split('_');
-var monthsShort = 'led_úno_bře_dub_kvě_čvn_čvc_srp_zář_říj_lis_pro'.split('_');
+var months = 'leden_ nor_březen_duben_květen_červen_červenec_srpen_z ř _ř jen_listopad_prosinec'.split('_');
+var monthsShort = 'led_ no_bře_dub_kvě_čvn_čvc_srp_z ř_ř j_lis_pro'.split('_');
 function plural(n) {
     return (n > 1) && (n < 5) && (~~(n / 10) !== 1);
 }
@@ -19,7 +19,7 @@ function translate(number, withoutSuffix, key, isFuture) {
     var result = number + ' ';
     switch (key) {
         case 's':  // a few seconds / in a few seconds / a few seconds ago
-            return (withoutSuffix || isFuture) ? 'pár sekund' : 'pár sekundami';
+            return (withoutSuffix || isFuture) ? 'p r sekund' : 'p r sekundami';
         case 'm':  // a minute / in a minute / a minute ago
             return withoutSuffix ? 'minuta' : (isFuture ? 'minutu' : 'minutou');
         case 'mm': // 9 minutes / in 9 minutes / 9 minutes ago
@@ -42,18 +42,18 @@ function translate(number, withoutSuffix, key, isFuture) {
             return (withoutSuffix || isFuture) ? 'den' : 'dnem';
         case 'dd': // 9 days / in 9 days / 9 days ago
             if (withoutSuffix || isFuture) {
-                return result + (plural(number) ? 'dny' : 'dní');
+                return result + (plural(number) ? 'dny' : 'dn ');
             } else {
                 return result + 'dny';
             }
             break;
         case 'M':  // a month / in a month / a month ago
-            return (withoutSuffix || isFuture) ? 'měsíc' : 'měsícem';
+            return (withoutSuffix || isFuture) ? 'měs c' : 'měs cem';
         case 'MM': // 9 months / in 9 months / 9 months ago
             if (withoutSuffix || isFuture) {
-                return result + (plural(number) ? 'měsíce' : 'měsíců');
+                return result + (plural(number) ? 'měs ce' : 'měs ců');
             } else {
-                return result + 'měsíci';
+                return result + 'měs ci';
             }
             break;
         case 'y':  // a year / in a year / a year ago
@@ -93,9 +93,9 @@ var cs = moment.defineLocale('cs', {
         }
         return _longMonthsParse;
     }(months)),
-    weekdays : 'neděle_pondělí_úterý_středa_čtvrtek_pátek_sobota'.split('_'),
-    weekdaysShort : 'ne_po_út_st_čt_pá_so'.split('_'),
-    weekdaysMin : 'ne_po_út_st_čt_pá_so'.split('_'),
+    weekdays : 'neděle_ponděl _ terý_středa_čtvrtek_p tek_sobota'.split('_'),
+    weekdaysShort : 'ne_po_ t_st_čt_p _so'.split('_'),
+    weekdaysMin : 'ne_po_ t_st_čt_p _so'.split('_'),
     longDateFormat : {
         LT: 'H:mm',
         LTS : 'H:mm:ss',
@@ -107,7 +107,7 @@ var cs = moment.defineLocale('cs', {
     },
     calendar : {
         sameDay: '[dnes v] LT',
-        nextDay: '[zítra v] LT',
+        nextDay: '[z tra v] LT',
         nextWeek: function () {
             switch (this.day()) {
                 case 0:
@@ -120,7 +120,7 @@ var cs = moment.defineLocale('cs', {
                 case 4:
                     return '[ve čtvrtek v] LT';
                 case 5:
-                    return '[v pátek v] LT';
+                    return '[v p tek v] LT';
                 case 6:
                     return '[v sobotu v] LT';
             }
@@ -132,7 +132,7 @@ var cs = moment.defineLocale('cs', {
                     return '[minulou neděli v] LT';
                 case 1:
                 case 2:
-                    return '[minulé] dddd [v] LT';
+                    return '[minul ] dddd [v] LT';
                 case 3:
                     return '[minulou středu v] LT';
                 case 4:

@@ -37,7 +37,7 @@ var af = moment.defineLocale('af', {
     },
     calendar : {
         sameDay : '[Vandag om] LT',
-        nextDay : '[Môre om] LT',
+        nextDay : '[M re om] LT',
         nextWeek : 'dddd [om] LT',
         lastDay : '[Gister om] LT',
         lastWeek : '[Laas] dddd [om] LT',

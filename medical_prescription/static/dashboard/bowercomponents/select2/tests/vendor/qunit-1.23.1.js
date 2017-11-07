@@ -1648,7 +1648,7 @@ function errorString( error ) {
 }
 
 // Test for equality any JavaScript type.
-// Author: Philippe Rathé <prathe@gmail.com>
+// Author: Philippe Rath  <prathe@gmail.com>
 QUnit.equiv = ( function() {
 
 	// Stack to decide between skip/abort functions

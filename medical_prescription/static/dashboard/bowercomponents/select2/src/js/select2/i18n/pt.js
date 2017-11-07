@@ -2,14 +2,14 @@ define(function () {
   // European Portuguese
   return {
     errorLoading: function () {
-      return 'Os resultados não puderam ser carregados.';
+      return 'Os resultados n o puderam ser carregados.';
     },
     inputTooLong: function (args) {
       var overChars = args.input.length - args.maximum;
 
       var message = 'Por favor apague ' + overChars + ' ';
 
-      message += overChars != 1 ? 'caracteres' : 'carácter';
+      message += overChars != 1 ? 'caracteres' : 'car cter';
 
       return message;
     },

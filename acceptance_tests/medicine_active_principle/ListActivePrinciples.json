@@ -13,13 +13,13 @@
     },
     {
       "Command": "clickAndWait",
-      "Target": "link=Visualizar princípios ativos",
+      "Target": "link=Visualizar princ pios ativos",
       "Value": ""
     },
     {
       "Command": "assertText",
-      "Target": "link=Visualizar princípios ativos",
-      "Value": "Visualizar princípios ativos"
+      "Target": "link=Visualizar princ pios ativos",
+      "Value": "Visualizar princ pios ativos"
     },
     {
       "Command": "click",

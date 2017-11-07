@@ -4,7 +4,7 @@
         "pk": 1,
         "fields": {
             "id_tuss": "10101012",
-            "description": "Em consultório (no horário normal ou preestabelecido)"
+            "description": "Em consult rio (no hor rio normal ou preestabelecido)"
         }
     },
     {
@@ -20,7 +20,7 @@
         "pk": 3,
         "fields": {
             "id_tuss": "10103015",
-            "description": "Atendimento ao recém-nascido em berçário"
+            "description": "Atendimento ao rec m-nascido em ber rio"
         }
     },
     {
@@ -28,7 +28,7 @@
         "pk": 4,
         "fields": {
             "id_tuss": "10103023",
-            "description": "Atendimento ao recém-nascido em sala de parto (parto normal ou operatório de baixo risco)"
+            "description": "Atendimento ao rec m-nascido em sala de parto (parto normal ou operat rio de baixo risco)"
         }
     },
     {
@@ -36,7 +36,7 @@
         "pk": 5,
         "fields": {
             "id_tuss": "10104020",
-            "description": "Atendimento médico do intensivista em UTI geral ou pediátrica (plantão de 12 horas - por paciente)"
+            "description": "Atendimento m dico do intensivista em UTI geral ou pedi trica (plant o de 12 horas - por paciente)"
         }
     },
     {
@@ -52,7 +52,7 @@
         "pk": 7,
         "fields": {
             "id_tuss": "31101402",
-            "description": "Punção biópsia renal percutânea"
+            "description": "Pun o bi psia renal percut nea"
         }
     },
     {
@@ -60,7 +60,7 @@
         "pk": 8,
         "fields": {
             "id_tuss": "31008011",
-            "description": "Diálise peritoneal intermitente - agudo ou crônico (por sessão)"
+            "description": "Di lise peritoneal intermitente - agudo ou cr nico (por sess o)"
         }
     },
     {
@@ -68,7 +68,7 @@
         "pk": 9,
         "fields": {
             "id_tuss": "30909031",
-            "description": "Hemodiálise crônica (por sessão)"
+            "description": "Hemodi lise cr nica (por sess o)"
         }
     },
     {
@@ -76,7 +76,7 @@
         "pk": 10,
         "fields": {
             "id_tuss": "31008020",
-            "description": "Diálise peritoneal ambulatorial contínua (CAPD) 9 dias - treinamento"
+            "description": "Di lise peritoneal ambulatorial cont nua (CAPD) 9 dias - treinamento"
         }
     }
 ]

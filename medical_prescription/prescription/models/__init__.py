@@ -1,0 +1,6 @@
+from .prescription import Prescription
+from .prescriptionexam import PrescriptionExam
+from .prescriptionmedicine import PrescriptionMedicine
+from .prescription_has_manipulated_medicine import PrescriptionHasManipulatedMedicine
+from .prescription_has_medicine import PrescriptionHasMedicine
+from .prescriptionrecommendation import PrescriptionRecommendation
